@@ -1,0 +1,22 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "description": "Algorithms / DS practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexander-AJ-Berman/algorithms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alexander-AJ-Berman/algorithms/issues"
+  },
+  "homepage": "https://github.com/Alexander-AJ-Berman/algorithms#readme",
+  "dependencies": {
+    "assert": "^2.0.0"
+  }
+}
