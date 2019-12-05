@@ -1,5 +1,5 @@
 const assert = require('assert');
-const TreeNode = require('../dataStructures/binaryTree');
+const TreeNode = require('../dataStructures/binaryTreeNode');
 
 /**
  * Given a root, traverses a binary tree along the inorder ordering.
@@ -48,6 +48,7 @@ const inorder_driver = () => {
     E.right = null;
     C.right = G;
     assert(inorder(A, []) == "D -> C -> G -> B -> A -> F -> E");
+    console.log("All tests passed.");
 }
 
 inorder_driver();

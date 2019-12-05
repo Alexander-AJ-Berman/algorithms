@@ -1,5 +1,5 @@
 const assert = require('assert');
-const TreeNode = require('../dataStructures/binaryTree');
+const TreeNode = require('../dataStructures/binaryTreeNode');
 
 /**
  * Given a root, traverses a binary tree along the postorder ordering.
@@ -51,6 +51,7 @@ const postorder_driver = () => {
     E.right = null;
     C.right = G;
     assert(postorder(A, []) == "D -> G -> C -> B -> F -> E -> A");
+    console.log("All tests passed.");
 }
 
 postorder_driver();

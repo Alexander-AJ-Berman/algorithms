@@ -1,5 +1,5 @@
 const assert = require('assert');
-const TreeNode = require('../dataStructures/binaryTree');
+const TreeNode = require('../dataStructures/binaryTreeNode');
 
 /**
  * Given a root, traverses a binary tree along the preorder ordering.
@@ -55,6 +55,7 @@ const preorder_driver = () => {
     F.right = null;
     E.right = I;
     assert(preorder(A, []) == "A -> B -> D -> C -> E -> G -> I -> F -> H");
+    console.log("All tests passed.");
 }
 
 preorder_driver();

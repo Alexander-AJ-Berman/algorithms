@@ -1,5 +1,5 @@
 const assert = require('assert');
-const TreeNode = require('../dataStructures/binaryTree');
+const TreeNode = require('../dataStructures/binaryTreeNode');
 
 /**
  * Given a root, traverses a binary tree with a depth-first search.
