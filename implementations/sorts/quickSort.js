@@ -5,7 +5,7 @@ const assert = require('assert');
  * @param {*} start 
  * @param {*} end 
  * 
- * An implementation of quickSort. Originall works of a manually selected pivot (end index), but will
+ * An implementation of quickSort. Originally works of a manually selected pivot (end index), but will
  *  be upgraded to choosing a random pivot so as to achieve O(n log n) amortized runtime.
  */
 const quickSort = (A, start, end) => {
